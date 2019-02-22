@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo apt-get update && apt-get install git redis-server python python-pip python-virtualenv
+git clone https://github.com/ex0dus-0x/D0xk1t && cd D0xk1t
+source venv/bin/activate
+sudo pip install -r requirements.txt
+
+echo "Done!"
