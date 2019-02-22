@@ -26,17 +26,17 @@ Active reconaissance, information gathering and OSINT built in a portable web ap
 
 1. __What is this?__
 
-D0xk1t is an __open-source__, __self-hosted__ and __easy to use__ OSINT and active reconaissance web application for penetration testers. Based off of the prior command-line script, D0xk1t is now fully capable of conducting reconaissance and penetration testing for security researchers who need a framework without the 
+D0x-K1t-v2 is an __open-source__, __self-hosted__ and __easy to use__ OSINT and active reconaissance web application for penetration testers. Based off of the prior command-line script, D0x-K1t-v2 is now fully capable of conducting reconaissance and penetration testing for security researchers who need a framework without the 
 head-scratching.
 
 2. __Is this a website / webapp ?__
 
-Yes and no. In essence, it is not a typical website. D0xk1t is self-hosted. There is no server stack, cloud-based service, SaaS, etc. that is holding it up. You can have the option of deploying D0xk1t on a local network, or deploying
+Yes and no. In essence, it is not a typical website. D0x-K1t-v2 is self-hosted. There is no server stack, cloud-based service, SaaS, etc. that is holding it up. You can have the option of deploying D0x-K1t-v2 on a local network, or deploying
 your own instance on any infrastructure / technology as you wish (although not recommended).
 
 3. __Is this free ?__
 
-Yes. D0xk1t will forever be open-source. If you wish to contribute, you can make a fork, add any changes, and send a pull request on Github.
+Yes. D0x-K1t-v2 will forever be open-source. If you wish to contribute, you can make a fork, add any changes, and send a pull request on Github.
 
 4. __How else can I develop on this?__
 
@@ -56,19 +56,13 @@ I have created API endpoints, and more will be coming soon.
 
 ## 3.0 Installation 
 
-Since D0xk1t is self-hosted, it does not work immediately out-of-box. It is recommended that you use a `virtualenv` container due to the sheer number of dependencies that can run into conflict with your Python configuration.
+Since D0x-K1t-v2 is self-hosted, it does not work immediately out-of-box. It is recommended that you use a `virtualenv` container due to the sheer number of dependencies that can run into conflict with your Python configuration.
 
 ### 3.1 Building
 
-Lucky for you, there are two ways to build D0xk1t. The __quick 'n easy way__, and the __manual way__.
-
-__Quick 'n Easy Way:__
-
-     $ curl https://raw.githubusercontent.com/ex0dus-0x/D0xk1t/master/extras/install | sudo /bin/bash 
-
 __Manual Way:__
 
-    $ git clone https://github.com/ex0dus-0x/D0xk1t && cd D0xk1t
+    $ git clone https://github.com/roo7k1d/D0x-K1t-v2 && cd D0x-K1t-v2
     $ # Start virtualenv if you wish
     $ pip install -r requirements.txt
     $ python run.py
@@ -78,7 +72,7 @@ __Manual Way:__
 
 Once installed, run with `python run.py`. The application will run a first-time boot, and will then be accessible at `127.0.0.1:5000`. 
 
-Of course, this is self-hosting on localhost. Although work-in-progress, D0xk1t will soon support hosting on a variety of SaaS and server stacks of your choice.
+Of course, this is self-hosting on localhost. Although work-in-progress, D0x-K1t-v2 will soon support hosting on a variety of SaaS and server stacks of your choice.
 
 * [Heroku](https://www.heroku.com/) - __TODO__: build a `Procfile`, as well as bash scripts for automatic deployment
 * [ngrok](https://ngrok.com/) - __TODO__: build a script for deployment to ngrok
@@ -102,4 +96,4 @@ Contributing is easy! Send a pull request if you feel that anything should be ch
 
 # License
 
-D0xk1t is distributed under a [MIT  License](https://choosealicense.com/licenses/mit/).
+D0x-K1t-v2 is distributed under a [MIT  License](https://choosealicense.com/licenses/mit/).
