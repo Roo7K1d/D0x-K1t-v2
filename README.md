@@ -8,7 +8,6 @@ Active reconaissance, information gathering and OSINT built in a portable web ap
 
 ---
 
-![screenshot](/extras/screenshot.png)
 
 ### CHANGELOG
 
