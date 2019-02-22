@@ -2,24 +2,23 @@
 
 Active reconaissance, information gathering and OSINT built in a portable web application
 
-[![Build Status](https://travis-ci.org/ex0dus-0x/D0xk1t.svg)](https://travis-ci.org/ex0dus-0x/D0xk1t)
+---
+
+* All credit goes to ex0dus-0x
+
+---
 
 ![screenshot](/extras/screenshot.png)
 
 ### CHANGELOG
 
-11/24/17
+01/22/19
 
-* Added YAML support for Dox
-* Added DNS Enumeration
-* Refactored code, added comments
-* Jinja filters for more intuitive interactions
+* Reinovating D0x-K1t
 
 #### TODO:
 
-* Add webNmap function
-* Change screenshot / wallpaper
-* Cut down HTML templating
+* Add more features / websites
 
 ---
 
@@ -73,20 +72,9 @@ __Manual Way:__
     $ # Start virtualenv if you wish
     $ pip install -r requirements.txt
     $ python run.py
-
-### 3.2 Configuration
-
-Open `config.py`. Here, you will see all the environmental variables that the application utilizes. Three important fields you __MUST__ be aware of if you plan to deploy to the web.
-
-    GOOGLEMAPS_API_KEY = "YOUR_API_KEY_HERE"
-
-    SECRET_KEY = 'SECRET_KEY_HERE'
     
-`GOOGLEMAPS_API_KEY` denotes the Google Maps API Key. This is essential for the GeoIP module. You can obtain it [here](https://developers.google.com/maps/) and change the variable accordingly.
 
-`SECRET_KEY` is the private key utilized by WTForm's CSRF protection feature. If deployed, change it to your liking.
-
-### 3.3 Deployment
+### 3.2 Deployment
 
 Once installed, run with `python run.py`. The application will run a first-time boot, and will then be accessible at `127.0.0.1:5000`. 
 
@@ -105,21 +93,6 @@ The D0x module is a comprehensive info-gathering database that enables the pente
 Using this data, the tester will be able to effectively understand their target, which is a critical point in the attacker's kill chain. D0xing is usually deemed malicious and black-hat in nature. However, with the D0x module, we aim to help security researchers gain momentum when conducting in-the-field pentesting. 
 
 The D0x module does come with several features, improved upon based off of the prior revision. 
-
-* Secure database support, with delete and export (as `.csv`) options
-
-#### GeoIP Module 
-
-When working with metadata, IP addresses often pop up as a point-of-interest. Using Maxmind and Google Map's APIs, the GeoIP module aims to collect geolocation information on public IP addresses, in order to gather data on physical location during
-the reconaissance stage of the killchain.
-
-* Google Maps support for accurate GeoIP visualization
-* API endpoint support for command-liners or developers.
-
-### DNS Enumeration Module
-
-Targets, whether it be a company or a person, may utilize domains in order to display web content. Domains, especially those that are not properly configured, give penetration testers great opportunity to gather sensitive information in the
-form of metadata, whether it be an address from a WHOIS lookup, or nameservers.
 
 ---
 
