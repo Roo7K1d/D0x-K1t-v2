@@ -8,7 +8,7 @@ Active reconaissance, information gathering and OSINT built in a portable web ap
 
 ---
 
-##Support
+## Support
 For quick support you can join my [Discord](https://discord.gg/QQaWvMkFbs)
 
 
