@@ -26,7 +26,7 @@ pyparsing==2.2.0
 python-geoip==1.2
 python-geoip-geolite2==2015.303
 python-nmap==0.6.1
-python-whois==0.6.5
+python-whois==0.7.3
 PyYAML==5.1
 requests==2.20.0
 six==1.10.0
