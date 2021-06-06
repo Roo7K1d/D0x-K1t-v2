@@ -184,7 +184,7 @@ def dox():
 
         # Load raw text as yaml data into dict
         # ... will now have a key-value structure for template            
-        parsed_yaml = yaml.load(request.form["textarea"])
+        parsed_yaml = yaml.load(request.form["textarea"], Loader=yaml.FullLoader)
         
         # Add 'n commit 'n flash success!
         d = Doxkit(request.form['name'], str(parsed_yaml))
