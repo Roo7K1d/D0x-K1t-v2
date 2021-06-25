@@ -1,6 +1,6 @@
 # D0x-K1t-v2
 
-![logo](.gitbook/assets/logo.png)
+![logo](../.gitbook/assets/logo.png)
 
 Active reconaissance, information gathering and OSINT built in a portable web application
 
