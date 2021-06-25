@@ -7,6 +7,5 @@
   * [Setup](d0x-k1t-v2/untitled.md)
   * [Contributing](d0x-k1t-v2/contributing.md)
   * [Licensing](d0x-k1t-v2/licensing.md)
-  * [d0x-k1t-v2](d0x-k1t-v2/d0x-k1t-v2.md)
   * [Table of contents](d0x-k1t-v2/summary.md)
 
