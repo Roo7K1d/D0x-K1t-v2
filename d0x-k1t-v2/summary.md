@@ -1,7 +1,7 @@
 # Table of contents
 
 * [D0x-K1t-v2](./)
-* [Support](../support-1.md)
+* [Support]()
 
 ## D0x-K1t-v2
 
