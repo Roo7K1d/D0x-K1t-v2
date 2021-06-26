@@ -1,9 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
+title: "[BUG] >Precise Title<"
+labels: bug
+assignees: Roo7K1d
 
 ---
 
