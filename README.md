@@ -1,88 +1,89 @@
-# D0x-K1t-v2
+<img src="https://cdn.discordapp.com/attachments/820416224005586945/886613185434636318/d0x-k1t-v2.png">
+<p align="center"><i>Active reconaissance, information gathering and OSINT built in a portable web application test.</i></p>
+<div align="center">
+  <a href="https://github.com/roo7k1d/d0x-k1t-v2/stargazers"><img src="https://img.shields.io/github/stars/roo7k1d/d0x-k1t-v2?color=yellow" alt="Stars Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/network/members"><img src="https://img.shields.io/github/forks/roo7k1d/d0x-k1t-v2?color=orange" alt="Forks Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/pulls"><img src="https://img.shields.io/github/issues-pr/roo7k1d/d0x-k1t-v2" alt="Pull Requests Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/issues"><img src="https://img.shields.io/github/issues/roo7k1d/d0x-k1t-v2" alt="Issues Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/roo7k1d/d0x-k1t-v2?color=2b9348"></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/blob/master/LICENSE"><img src="https://img.shields.io/github/license/roo7k1d/d0x-k1t-v2?color=2b9348" alt="License Badge"/></a>
+<br>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/"><img src="https://img.shields.io/github/repo-size/roo7k1d/d0x-k1t-v2?color=important" alt="License Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/"><img src="https://img.shields.io/tokei/lines/github/roo7k1d/d0x-k1t-v2?color=yellowgreen" alt="License Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/releases"><img src="https://img.shields.io/github/v/release/roo7k1d/d0x-k1t-v2?color=success" alt="License Badge"/></a>
+<a href="https://github.com/roo7k1d/d0x-k1t-v2/commits"><img src="https://img.shields.io/github/last-commit/roo7k1d/d0x-k1t-v2" alt="License Badge"/></a>
+</div>
+<br>
+<p align="center"><a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Request a New Feature</a> | <a href="https://github.com/d0x-k1t-v2/pulls">Help Develop This Project</a></p>
+<p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 
-![logo](.gitbook/assets/logo.png)
+<hr>
 
-Active reconaissance, information gathering and OSINT built in a portable web application
-test
-
-* All credit goes to ex0dus-0x
-
-### Support
-
-For quick support you can join my [Discord](https://discord.gg/QQaWvMkFbs)
-
-#### CHANGELOG
-
-01/22/19
-
-* Reinovating D0x-K1t
-
-**TODO:**
-
-* Add more features / websites
-
-### 1.0 Introduction
-
-1. **What is this?**
-
-D0x-K1t-v2 is an **open-source**, **self-hosted** and **easy to use** OSINT and active reconaissance web application for penetration testers. Based off of the prior command-line script, D0x-K1t-v2 is now fully capable of conducting reconaissance and penetration testing for security researchers who need a framework without the head-scratching.
-
-1. **Is this a website / webapp ?**
-
-Yes and no. In essence, it is not a typical website. D0x-K1t-v2 is self-hosted. There is no server stack, cloud-based service, SaaS, etc. that is holding it up. You can have the option of deploying D0x-K1t-v2 on a local network, or deploying your own instance on any infrastructure / technology as you wish \(although not recommended\).
-
-1. **Is this free ?**
-
-Yes. D0x-K1t-v2 will forever be open-source. If you wish to contribute, you can make a fork, add any changes, and send a pull request on Github.
-
-1. **How else can I develop on this?**
-
-I have created API endpoints, and more will be coming soon.
-
-### 2.0 Features
-
-* Easy-to-build, risk-free installation
-* Simple Bootstrap Admin Dashboard
-* Deployable to the Internet
-* Serverless \(at the moment\)
-* Expansive to any OS
-
-### 3.0 Installation
-
-Since D0x-K1t-v2 is self-hosted, it does not work immediately out-of-box. It is recommended that you use a `virtualenv` container due to the sheer number of dependencies that can run into conflict with your Python configuration.
-
-#### 3.1 Building
-
-**Manual Way:**
-
+## Installation Guide
+Since D0x-K1t-v2 is self-hosted, it does not work immediately out-of-box. It is recommended that you use a virtualenv container due to the sheer number of dependencies that can run into conflict with your Python configuration.
+<br>
+<br>
+<b>Building</b><br>
 ```text
 $ git clone https://github.com/roo7k1d/D0x-K1t-v2 && cd D0x-K1t-v2
 $ # Start virtualenv if you wish
 $ pip install -r requirements.txt
 $ python run.py
 ```
-
-#### 3.2 Deployment
-
-Once installed, run with `python run.py`. The application will run a first-time boot, and will then be accessible at `127.0.0.1:5000`.
-
+<br>
 Of course, this is self-hosting on localhost. Although work-in-progress, D0x-K1t-v2 will soon support hosting on a variety of SaaS and server stacks of your choice.
 
 * [Heroku](https://www.heroku.com/) - **TODO**: build a `Procfile`, as well as bash scripts for automatic deployment
 * [ngrok](https://ngrok.com/) - **TODO**: build a script for deployment to ngrok
 
-### 4.0 Modules
+<hr>
 
-**D0x Module**
+## Demo
+<img src="https://i.imgur.com/pPQvdmu.png">
 
-The D0x module is a comprehensive info-gathering database that enables the pentester to write "D0x", or a file that holds a collection of data of a certain target, or targets. Using this data, the tester will be able to effectively understand their target, which is a critical point in the attacker's kill chain. D0xing is usually deemed malicious and black-hat in nature. However, with the D0x module, we aim to help security researchers gain momentum when conducting in-the-field pentesting.
+<hr>
 
-The D0x module does come with several features, improved upon based off of the prior revision.
+## Support
+For support you can create an issue [here on GitHub](https://github.com/rootk1d/pad-demo/issues) or you can join my [Discord](https://discord.gg/QQaWvMkFbs).
 
-### 5.0 How to Contribute
+<hr>
 
-Contributing is easy! Send a pull request if you feel that anything should be changed, removed, optimized, etc. Issues are also great for reporting bugs.
+## Features
+- Easy-to-build, risk-free installation
+- Simple Bootstrap Admin Dashboard
+- Deployable to the Internet
+- Serverless
+- Expansive to any OS
+
+<br>
+
+- Save Doxes in a database
+- WhoIs Lookup
+- Phone Scan
+- Port Checker
+- GeoIP Lookup
+
+<hr>
+
+## Feedback
+Feedback is great! If you have a suggestion or request, create an issue! Smilarly, if you have any issues, use the issue tab to let us know.
+
+<hr>
+
+## Copyright
+You are not allowed to remove any part of the footer. That includes all of the info about the copyright. If you wish to remove that info feel free to contact me on my [Discord](https://discord.gg/QQaWvMkFbs)
+
+<hr>
+
+## Todo (See Issues with tag "help wanted")
+- Add more tools
+
+<hr>
+
+## Contributing
+You can help develop this project by doing some things of the todolist and making a pull request. If you have some even better ideas on how this project can be improved you can also make a pull request.
+
+<hr>
 
 ## License
-
-D0x-K1t-v2 is distributed under a [MIT License](https://choosealicense.com/licenses/mit/).
+This repo is licensed under MIT. For more information see file "LICENSE".
