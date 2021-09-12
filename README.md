@@ -14,7 +14,7 @@
 <a href="https://github.com/roo7k1d/d0x-k1t-v2/commits"><img src="https://img.shields.io/github/last-commit/roo7k1d/d0x-k1t-v2" alt="License Badge"/></a>
 </div>
 <br>
-<p align="center"><a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Request a New Feature</a> | <a href="https://github.com/d0x-k1t-v2/pulls">Help Develop This Project</a></p>
+<p align="center"><a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Report a Bug</a> | <a href="https://github.com/roo7k1d/d0x-k1t-v2/issues">Request a New Feature</a> | <a href="https://github.com/d0x-k1t-v2/pulls">Help Develop This Project</a> | <a href="https://ko-fi.com/RootK1d">Fund Me</a></p>
 <p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 
 <hr>
