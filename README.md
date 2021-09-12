@@ -39,7 +39,7 @@ Of course, this is self-hosting on localhost. Although work-in-progress, D0x-K1t
 <hr>
 
 ## Demo
-<img src="https://i.imgur.com/pPQvdmu.png">
+<img src="https://cdn.discordapp.com/attachments/820416224005586945/886616728946241556/unknown.png">
 
 <hr>
 
