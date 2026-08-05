@@ -20,8 +20,9 @@
 <p align="center"><i>Loved the project? Please consider giving a star</i> :)</p>
 
 <hr>
-
-
+<h3>PROOF OF CONCEPT</h3>
+WARNING: THIS IS FOR EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR ANY DAMAGE OR DISTURBANCE RESULTING FROM THIS!
+<br>
 
 
 ## Installation Guide
